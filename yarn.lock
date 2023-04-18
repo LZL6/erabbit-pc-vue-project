@@ -3231,6 +3231,11 @@
   "resolved" "https://registry.npmmirror.com/deepmerge/-/deepmerge-1.5.2.tgz"
   "version" "1.5.2"
 
+"deepmerge@^4.2.2":
+  "integrity" "sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A=="
+  "resolved" "https://registry.npmmirror.com/deepmerge/-/deepmerge-4.3.1.tgz"
+  "version" "4.3.1"
+
 "default-gateway@^6.0.3":
   "integrity" "sha512-fwSOJsbbNzZ/CUFpqFBqYfYNLj1NbMPm8MMCIzHjC83iSJRBEGmDUxU+WP661BaBQImeC2yHwXtz+P/O9o+XEg=="
   "resolved" "https://registry.npmmirror.com/default-gateway/-/default-gateway-6.0.3.tgz"
@@ -7427,6 +7432,11 @@
   "resolved" "https://registry.npmmirror.com/shell-quote/-/shell-quote-1.8.0.tgz"
   "version" "1.8.0"
 
+"shvl@^2.0.3":
+  "integrity" "sha512-V7C6S9Hlol6SzOJPnQ7qzOVEWUQImt3BNmmzh40wObhla3XOYMe4gGiYzLrJd5TFa+cI2f9LKIRJTTKZSTbWgw=="
+  "resolved" "https://registry.npmmirror.com/shvl/-/shvl-2.0.3.tgz"
+  "version" "2.0.3"
+
 "side-channel@^1.0.4":
   "integrity" "sha512-q5XPytqFEIKHkGdiMIrY10mvLRvnQh42/+GoBlFW3b2LXLE2xxJpZFdm94we0BaoV3RwJyGqg5wS7epxTv0Zvw=="
   "resolved" "https://registry.npmmirror.com/side-channel/-/side-channel-1.0.4.tgz"
@@ -8141,6 +8151,11 @@
   "resolved" "https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz"
   "version" "1.1.2"
 
+"vee-validate@^4.0.3":
+  "integrity" "sha512-Ovk5+rNCnwZDQuRcCcq8claqJNNerBauKzCBD3bDoGBWqoLwAfo7rakr4p/jJs5WB4qpCyxjuycZMZJhuUNA/g=="
+  "resolved" "https://registry.npmmirror.com/vee-validate/-/vee-validate-4.0.3.tgz"
+  "version" "4.0.3"
+
 "vue-cli-plugin-style-resources-loader@~0.1.5":
   "integrity" "sha512-LluhjWTZmpGl3tiXg51EciF+T70IN/9t6UvfmgluJBqxbrb6OV9i7L5lTd+OKtcTeghDkhcBmYhtTxxU4w/8sQ=="
   "resolved" "https://registry.npmmirror.com/vue-cli-plugin-style-resources-loader/-/vue-cli-plugin-style-resources-loader-0.1.5.tgz"
@@ -8209,10 +8224,13 @@
     "@vue/server-renderer" "3.2.47"
     "@vue/shared" "3.2.47"
 
-"vuex-plugin-persistedstate@^1.0.6":
-  "integrity" "sha512-LSWiePK4L4JjFi04pAV0kYqQ3DhNLwdy8OU3+9+Mn+NjQY3ZY1guhZn9k4ESRON7JAmDSEEOR1gOU9MpmqxXWg=="
-  "resolved" "https://registry.npmmirror.com/vuex-plugin-persistedstate/-/vuex-plugin-persistedstate-1.0.6.tgz"
-  "version" "1.0.6"
+"vuex-persistedstate@^4.1.0":
+  "integrity" "sha512-3SkEj4NqwM69ikJdFVw6gObeB0NHyspRYMYkR/EbhR0hbvAKyR5gksVhtAfY1UYuWUOCCA0QNGwv9pOwdj+XUQ=="
+  "resolved" "https://registry.npmmirror.com/vuex-persistedstate/-/vuex-persistedstate-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "deepmerge" "^4.2.2"
+    "shvl" "^2.0.3"
 
 "vuex@^4.0.0":
   "integrity" "sha512-hmV6UerDrPcgbSy9ORAtNXDr9M4wlNP4pEFKye4ujJF8oqgFFuxDCdOLS3eNoRTtq5O3hoBDh9Doj1bQMYHRbQ=="

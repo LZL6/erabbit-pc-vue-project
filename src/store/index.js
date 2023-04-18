@@ -1,5 +1,5 @@
 import { createStore } from 'vuex'
-import createPersistedState from 'vuex-plugin-persistedstate'
+import createPersistedState from 'vuex-persistedstate'
 // 三个模块
 import cart from './modules/cart'
 import category from './modules/category'
